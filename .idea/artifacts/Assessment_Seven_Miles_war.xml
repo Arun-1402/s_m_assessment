@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Assessment_Seven_Miles:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Assessment_Seven_Miles</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringMVC.war">
+      <element id="artifact" artifact-name="Assessment_Seven_Miles:war exploded" />
+    </root>
+  </artifact>
+</component>
